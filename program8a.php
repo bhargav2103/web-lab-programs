@@ -15,7 +15,7 @@
 <body>
 	<form method="post">
 		<table>
-			<caption><h2> SIMPLE CALCULATOR </h2></caption>>
+			<caption><h2> SIMPLE CALCULATOR </h2></caption>
 			<tr><td>First Number:</td><td><input type="text" name="num1" /></td>
 			<td rowspan="2"><input type="submit" name="submit" value="calculate"></td></tr>
 			<tr><td>Second Number:</td><td><input type="text" name="num2"/></td></tr>
