@@ -3,7 +3,7 @@
 #use weblab;
 #create table student with usn, name and address as attributes
 #insert values to student table
-#write the PHP code
+#write & execute the PHP code 
 <!DOCTYPE HTML>
 <html>
 	<body>
