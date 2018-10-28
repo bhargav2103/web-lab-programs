@@ -1,4 +1,10 @@
- <!DOCTYPE HTML>
+#open mysql
+#create database weblab;
+#use weblab;
+#create table student with usn, name and address as attributes
+#insert values to student table
+#write the PHP code
+<!DOCTYPE HTML>
 <html>
 	<body>
 		<style>
@@ -13,10 +19,10 @@
 			table{margin:auto;}
 		</style>
 		<?php
-			$servername="localhost";
-			$username="root";
-			$password="";
-			$dbname="weblab";
+			$servername="localhost";		#host or server name
+			$username="root";			#username of the mysql 
+			$password="123";			#password of the mysql
+			$dbname="weblab";			#database name			
 			$a=[];
 
 			$conn=mysqli_connect($servername,$username,$password,$dbname);
@@ -90,42 +96,3 @@
 		?>	
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
-				
-
-
-
-
-
-
-
-
-
-
- 
